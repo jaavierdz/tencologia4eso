@@ -1,7 +1,7 @@
 # Code
 Esta carpeta esta reservada para subir el codigo del microcontrolador del Solar Tracker. <br/>
 El microcontrolador usado es el Arduno Uno R3.<br/>
-Para mas informacion en el proceso véase [Changelog](https://github.com/jaavierdz/tencologia4eso/new/main/codes#changelog)
+Para mas informacion en el proceso véase [Changelog](#changelog)
 
 # Changelog
 
