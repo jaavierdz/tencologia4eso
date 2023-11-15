@@ -27,7 +27,7 @@ void setup() {
 }
 
 /*
-    public static void onEnable(){
+    public static void onEnable(){ //Creo que no tendria que ponerlo en public y en static, no es necesario.
         Void que se ejecuta despues del setup al inciarse (De ahi el nomrbe)
         Ya veré que poner aqui, se me ocurren los limites de luz que puede recibir, una rutina de calibracion al encenderse o la variable de la posicion
         position = Servo.x();
