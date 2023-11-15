@@ -10,7 +10,7 @@ Versión 1 preliminar. <br/>
 Judith Bilbao Rodríguez && Javier Rodríguez-Alarcón <br/>
 **Objetivo**: Calibración y evaluacion de los angulos del servomotor. <br/>
 **Fase de pruebas**: Tratamiento 1 -- Evaluación de angulos.<br/>
-**Fecha y hora**: 15/11/2023 13:40h
+**Fecha y hora**: 15/11/2023 13:40h <br/>
 **FALTA:** <br/>
     **-** Comunicación e interpretación de los valores de las LDR <br/>
     **-** Cálculo de la media de los valores de la LDR <br/>
