@@ -11,5 +11,5 @@ En este apartado se contemplan todos los contenidos que contiene el repositorio 
 
 ## Fotos
 ![Solar Tracker](https://github.com/jaavierdz/tencologia4eso/blob/main/fotos/foto1.jpg?raw=true)
-
+![Solar Tracker 2](https://github.com/jaavierdz/tencologia4eso/blob/main/fotos/IMG_1227.jpeg?raw=true)
 Esto es todo por el momento
