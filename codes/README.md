@@ -6,6 +6,20 @@ Para mas informacion en el proceso véase [Changelog](#changelog)
 # Changelog
 Versión 1 preliminar. <br/>
 **Script Arduino para el solar tracker** <br/>
+Javier Rodríguez-Alarcón <br/>
+**Objetivo**: Calibración y evaluacion de los angulos del servomotor. <br/>
+**Fase de pruebas**: Tratamiento 3 -- Retroceso a fase de construccion.<br/>
+**Fecha y hora**: 21/11/2023 8:18h <br/>
+**Observaciones:**<br/>
+    El servomotor ha sido adherido de forma incorrecta a la pieza de madera <br/> y, despues de diversas pruebas se ha decidido <br/>soltar la pieza para evaluar el servo sin la pieza de madera. <br/>Esperando siguientes resultados, que se documentarán en el sgiguiente changelog.<br/>
+**FALTA:** <br/>
+    **-** Comunicación e interpretación de los valores de las LDR <br/>
+    **-** Cálculo de la media de los valores de la LDR <br/>
+    **-** Y más <br/>
+**Revisar comentarios** <br/>
+**----------------------------------------------------------------------<br/>**
+Versión 1 preliminar. <br/>
+**Script Arduino para el solar tracker** <br/>
 Judith Bilbao Rodríguez && Javier Rodríguez-Alarcón <br/>
 **Objetivo**: Calibración y evaluacion de los angulos del servomotor. <br/>
 **Fase de pruebas**: Tratamiento 2 -- Confirmación de funcionamiento.<br/>
@@ -17,7 +31,7 @@ Judith Bilbao Rodríguez && Javier Rodríguez-Alarcón <br/>
 **Observaciones:**<br/>
    Se han evaluado los angulos y se ha llegado a la conclusion de que se necesita<br/> despegar la pieza del motor y evaluar de nuevo los angulos <br/>para averiguar el angulo 0<br/>
 **Revisar comentarios** <br/>
-----------------------------------------------------------------------<br/>
+**----------------------------------------------------------------------<br/>**
 Versión 1 preliminar. <br/>
 **Script Arduino para el solar tracker** <br/>
 Judith Bilbao Rodríguez && Javier Rodríguez-Alarcón <br/>

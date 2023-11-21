@@ -22,7 +22,7 @@ int pos_elevacion;    // posición del servo de elevación
 void setup() {
     servo_elevacion.attach(10); // vincula el servo de elevación al pin digital 10
 
-    servo_elevacion.write(90); //Vincula el servo elevación a la posición 0 
+    servo_elevacion.write(0); //Vincula el servo elevación a la posición 0 
     Serial.begin(9600); //inicia la comunicación con el ordenata a 9600 bits/s
 }
 
@@ -41,17 +41,17 @@ void setup() {
     }
 */
 
-void loop() {
-    Serial.prinln(pos_elevacion);
+  void loop() {
+    Serial.println(pos_elevacion);
    //varía la posición de elevación de 0 a 90, con esperas de 50 ms
-   for (pos_elevacion = 180; pos_elevacion >= 0; pos_elevacion--) 
+   for (pos_elevacion = 0; pos_elevacion <= -90; pos_elevacion--) 
    {
       servo_elevacion.write(pos_elevacion);              
       delay(50);                       
    }
 
    //varía la posición de elevación 90 a 0, con esperas de 50 ms
-   for (pos_elevacion = 0; pos_elevacion <= 130; pos_elevacion++)
+   for (pos_elevacion = -90; pos_elevacion >= 0; pos_elevacion++)
    {
       servo_elevacion.write(pos_elevacion);              
       delay(50);                       
@@ -60,7 +60,9 @@ void loop() {
     // Por otro lado si es true que funcione
     /*
         for (isRecievingLight == true && media >= x) {
-            ...
+            servo_elevacion.write(30);
         }
     */
 }
+
+
