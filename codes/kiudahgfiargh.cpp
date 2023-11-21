@@ -15,7 +15,7 @@ int pos_elevacion;    // posición del servo de elevación
 // int LDRL = A5; // Variable del pin de la LDR de abajo (Lower) (Analog 5)
 // int media = (val1 + val2) /2;
 // int val1 = analogRead(LDRU);
-//int val2 = analogRead(LDRL);
+// int val2 = analogRead(LDRL);
 // int position
 // bool isRecievingLight = true;
 
@@ -64,5 +64,3 @@ void setup() {
         }
     */
 }
-
-
