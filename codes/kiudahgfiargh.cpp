@@ -38,6 +38,7 @@ void setup() {
 /*
     public void mueveteporfa(media){    // De momento el (media) no funciona, no sabemos porque
         aqui sería interpretar la media y que se mueva, a lo mejor se puede meter en el void loop
+        
     }
 */
 
