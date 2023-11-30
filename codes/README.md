@@ -7,6 +7,20 @@ Para mas informacion en el proceso véase [Changelog](#changelog)
 Versión 1 preliminar. <br/>
 **Script Arduino para el solar tracker** <br/>
 Javier Rodríguez-Alarcón <br/>
+**Objetivo**: Funcionamiento correcto. <br/>
+**Fase de pruebas**: Preliminar test 1 -- Normal behaviour test.<br/>
+**Fecha y hora**: 30/11/2023 13:12h <br/>
+**Observaciones:**<br/>
+    En proceso
+**FALTA:** <br/>
+    **🟡** Comunicación e interpretación de los valores de las LDR <br/>
+    **🟡** Cálculo de la media de los valores de la LDR <br/>
+    **🔴** Y más <br/>
+**Revisar comentarios** <br/>
+**----------------------------------------------------------------------<br/>**
+Versión 1 preliminar. <br/>
+**Script Arduino para el solar tracker** <br/>
+Javier Rodríguez-Alarcón <br/>
 **Objetivo**: Calibración y evaluacion de los angulos del servomotor. <br/>
 **Fase de pruebas**: Tratamiento 3 -- Retroceso a fase de construccion.<br/>
 **Fecha y hora**: 21/11/2023 8:18h <br/>
