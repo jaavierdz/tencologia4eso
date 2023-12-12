@@ -4,6 +4,20 @@ El microcontrolador usado es el Arduno Uno R3.<br/>
 Para mas informacion en el proceso véase [Changelog](#changelog)
 
 # Changelog
+Versión 2 preliminar post-reboot. <br/>
+**Script Arduino para el solar tracker** <br/>
+Javier Rodríguez-Alarcón <br/>
+**Objetivo**: Funcionamiento correcto. <br/>
+**Fase de pruebas**: Beta 1 -- Normal behaviour test.<br/>
+**Fecha y hora**: 12/12/2023 10:10 <br/>
+**Observaciones:**<br/>
+    En proceso
+**FALTA:** <br/>
+    **🟡** Comunicación e interpretación de los valores de las LDR <br/>
+    **🟡** Cálculo de la media de los valores de la LDR <br/>
+    **🔴** Y más <br/>
+**Revisar comentarios** <br/><br/>
+**----------------------------------------------------------------------<br/><br/>**
 Versión 1 preliminar. <br/>
 **Script Arduino para el solar tracker** <br/>
 Javier Rodríguez-Alarcón <br/>
