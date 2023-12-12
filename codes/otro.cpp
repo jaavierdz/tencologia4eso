@@ -1,14 +1,14 @@
 #include <Servo.h>
  
-int const leftSensorPin = A0;
-int const rightSensorPin = A1;
+int const upLDR = A1;
+int const downLDR = A0;
  
 Servo myServo;
  
-int angle = 90;
-int leftSensorValue = 0;
-int rightSensorValue = 0;
-int colchon = 30;
+int angle = 20;
+int upLDRVal = 0;
+int downLDRVal = 0;
+int nutela = 50;
  
 void setup(){
   myServo.attach(11);
@@ -17,23 +17,23 @@ void setup(){
 }
  
 void loop(){
-  leftSensorValue = analogRead(leftSensorPin);
+  upLDRVal = analogRead(upLDR);
   delay(10);
-  rightSensorValue = analogRead(rightSensorPin);
+  downLDRVal = analogRead(downLDR);
   delay(10);
-  Serial.print("Left Sensor Value: ");
-  Serial.print(leftSensorValue);
-  Serial.print(" - Right Sensor Value: ");
-  Serial.print(rightSensorValue);
+  Serial.print("UP Sensor Value: ");
+  Serial.print(upLDRVal);
+  Serial.print(" - DOWN Sensor Value: ");
+  Serial.print(downLDRVal);
   Serial.print(" - Angle: ");
   Serial.println(angle);
  
-  if (rightSensorValue > leftSensorValue && angle > 5 && rightSensorValue-leftSensorValue > colchon){
-    angle = angle - 5;
+  if (downLDRVal > upLDRVal && angle < 10 && downLDRVal-upLDRVal > nutela){
+    angle = angle + 1;
     myServo.write(angle);
   }
-  if (rightSensorValue < leftSensorValue && angle < 175 && leftSensorValue-rightSensorValue > colchon){
-    angle = angle + 5;
+  if (downLDRVal < upLDRVal && angle > 90 && upLDRVal-downLDRVal > nutela){
+    angle = angle - 1;
     myServo.write(angle);
   }
   else
