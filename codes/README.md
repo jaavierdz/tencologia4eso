@@ -4,10 +4,19 @@ El microcontrolador usado es el Arduno Uno R3.<br/>
 Para mas informacion en el proceso véase [Changelog](#changelog)
 
 # Changelog
-Versión 2 preliminar post-reboot. <br/>
+Versión Relase 1.0 <br/>
 **Script Arduino para el solar tracker** <br/>
 Javier Rodríguez-Alarcón <br/>
 **Objetivo**: Funcionamiento correcto. <br/>
+**Fase de pruebas**: 1.0 behaviour test.<br/>
+**Fecha y hora**: 12/12/2023 10:10 <br/>
+**Observaciones:**<br/>
+El robot funciona con normalidad
+Versión 2 preliminar post-reboot. <br/>
+**Script Arduino para el solar tracker** <br/>
+Javier Rodríguez-Alarcón <br/>
+**Objetivo**: Funcionamiento correcto. <br/>>
+**----------------------------------------------------------------------<br/><br/>
 **Fase de pruebas**: Beta 1 -- Normal behaviour test.<br/>
 **Fecha y hora**: 12/12/2023 10:10 <br/>
 **Observaciones:**<br/>
